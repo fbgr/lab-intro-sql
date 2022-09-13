@@ -13,15 +13,15 @@ SELECT title
 FROM film;
 
 -- Get unique list of film languages under the alias language.
-SELECT DISTINCT(language_id)
-FROM film;
+SELECT DISTINCT(name)
+FROM language;
 
 -- Find out how many stores does the company have? 2
-SELECT store_id
+SELECT COUNT(store_id)
 FROM store;
 
 -- Find out how many employees staff does the company have? 2
-SELECT staff_id
+SELECT COUNT(staff_id)
 FROM staff;
 
 -- Return a list of employee first names only?
